@@ -1,0 +1,12 @@
+[05-Sep-2022 09:50:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_sms() in /home/customer/www/acmeinfolabs.com/public_html/lp/seo-services-india.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/acmeinfolabs.com/public_html/lp/seo-services-india.php on line 38
+[05-Sep-2022 09:55:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_sms() in /home/customer/www/acmeinfolabs.com/public_html/lp/seo-services-india.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/acmeinfolabs.com/public_html/lp/seo-services-india.php on line 38
+[05-Sep-2022 09:56:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_sms() in /home/customer/www/acmeinfolabs.com/public_html/lp/seo-services-india.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/acmeinfolabs.com/public_html/lp/seo-services-india.php on line 38

@@ -1,0 +1,200 @@
+.AffySMO {
+    position: relative;
+    display: flex;
+    max-width: 1755px;
+    width: 100%;
+    margin: auto;
+    background-color: #f6f6f6;
+    padding: 0 30px;
+    border-radius: 15px;
+}
+    
+            .pckgCat.pckgEco,
+            .pckgCat.pckgSilver,
+            .pckgCat.pckgGold {
+                position: sticky;
+                top: 0;
+            }
+    
+            .pckgColunm-2 {
+                position: relative;
+                height: max-content;
+            }
+
+            .pckgColunm-1.pckgColunm-star {
+                min-width: 333px;
+            }
+    
+            .pckgColunm.pckgColunm-star {
+                position: relative;
+                display: block;
+                max-width: 333px;
+            }
+    
+            .pckgH,
+            .pckgTxt {
+                display: block;
+                height: 34px;
+                padding: 5px 13px;
+                font-size: 14px;
+                font-family: sans-serif;
+                line-height: 1.5;
+                min-width: 190px;
+            }
+    
+            .pckgH {
+                background: linear-gradient(45deg, #f95252, #ffa825);
+                font-weight: 700;
+                color: #ffff;
+                border-width: 1px 1px 0px 1px;
+                border-color: #e1e1e1;
+                border-style: solid;
+            }
+
+            .AffySMO .pckgH > span > .fa {
+                font-size: 14px;
+                padding: 0 3px;
+            }
+    
+            .singleH {
+                background: #ffa825;
+            }
+    
+            .pckgTxt {
+                background-color: #f1eeee;
+                border-width: 1px 1px 0px 1px;
+                border-color: #e1e1e1;
+                border-style: solid;
+            }
+    
+            .pckgColunm .pckgTxt:nth-child(odd) {
+                background-color: #fff7f3;
+            }
+    
+            .pckgColunm-1 .pckgTxt:nth-child(odd) {
+                background-color: #fff7f3;
+            }
+    
+            .pckgColunm-2 .pckgTxt:nth-child(even) {
+                background-color: #fff7f3;
+            }
+    
+            .blankDiv {
+                background-color: transparent !important;
+                background: transparent !important;
+                border: none !important;
+                height: 34px;
+            }
+    
+            .pckgH.pckgCat {
+                height: 68px;
+                border: none;
+                background: inherit;
+                text-align: center;
+                color: #ffffff;
+            }
+    
+            .pckgH.pckgEco {
+                background-color: #404040 !important;
+                border-radius: 7px 7px 0 0;
+                color: #ffffff;
+            }
+    
+            .pckgH.pckgSilver {
+                background-color: #eba155 !important;
+                border-radius: 7px 7px 0 0;
+                color: #ffffff;
+            }
+    
+            .pckgH.pckgGold {
+                background-color: #ff8741 !important;
+                background: linear-gradient(to bottom, #fbbb2b, #fa604b);
+                border-radius: 7px 7px 0 0;
+                color: #ffffff;
+            }
+    
+            .pckgCat img {
+                width: 35px;
+                margin: 5px auto -5px auto;
+            }
+    
+            .pckgCat p {
+                margin: 4px 0 0 0;
+                font-size: 14px;
+                color: #ffffff;
+                text-align: center;
+            }
+    
+            .pckgColunm-2 .pckgTxt {
+                text-align: center;
+            }
+    
+            .pckgTxt.pckgPrice {
+                background: black !important;
+                color: #ffffff;
+            }
+    
+            .pckgH.pckgEcoPrice p {
+                margin: 0;
+                text-align: center;
+                color: #ffffff;
+            }
+    
+            .pckgH.pckgEcoPrice {
+                background: #404040;
+            }
+    
+            .pckgBuy button, .pckgBuy a {
+    width: 100%;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid;
+    padding: 5px 3px;
+    margin: 7px 0;
+    border-radius: 3px;
+    color: #000;
+}
+    
+            .pckgH.pckgEcoBuy.pckgBuy {
+                height: auto;
+            }
+    
+            .pckgBuy a:hover {
+                border-radius: 30px;
+                transition-duration: 0.3s;
+            }
+    
+            @media (min-width: 361px) and (max-width: 520px) {
+                .pckgTxt {
+                    font-size: 12px !important;
+                }
+
+                .AffySMO {
+                    height: 400px;
+                    overflow: scroll;
+                    width: 420px !important;
+                    justify-content: left;
+                }
+    
+            }
+            @media (max-width:360px) {   
+                .pckgTxt {
+                    font-size: 12px !important;
+                } 
+                .AffySMO {
+                    height: 400px;
+                    overflow: scroll;
+                    width: 321px !important;
+                    justify-content: left;
+                }
+            }
+            @media (min-width:521px) {    
+                .AffySMO {
+                    justify-content: center;
+                    height: auto !important;
+                    overflow: hidden !important;
+                }
+            }
+
+
+            

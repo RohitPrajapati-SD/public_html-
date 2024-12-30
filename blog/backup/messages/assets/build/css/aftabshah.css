@@ -1,0 +1,28 @@
+.AffySMO{position:relative;display:flex;max-width:1755px;width:100%;margin:auto;background-color:#f6f6f6;padding:0 30px;border-radius:15px}.pckgCat.pckgEco,.pckgCat.pckgSilver,.pckgCat.pckgGold{position:sticky;top:0}.pckgColunm-2{position:relative;height:max-content}.pckgColunm-1.pckgColunm-star{min-width:333px}.pckgColunm.pckgColunm-star{position:relative;display:block;max-width:333px}.pckgH,.pckgTxt{display:block;height:34px;padding:5px 13px;font-size:14px;font-family:sans-serif;line-height:1.5}.pckgH{background-color: #196BDE!important;}
+.price_font p{
+        margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 17px!important;
+    font-weight: 600;
+}
+
+.pckgH.pckgCat {
+    height: 107px!important;
+    border: none;
+    background: inherit;
+    
+    color: #fff;
+}
+.pckgColunm-1 .pckgTxt:nth-child(odd) {
+    background-color: #fff!important;
+}
+
+
+
+
+
+ 
+
+
+

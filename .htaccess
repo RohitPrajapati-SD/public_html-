@@ -1,0 +1,89 @@
+# BEGIN Canonical Redirects
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^acmeinfolabs\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.acmeinfolabs\.com$
+RewriteRule ^(.*)$ https://www.acmeinfolabs.com/$1 [R=301,L]
+
+# Force WWW
+RewriteCond %{HTTP_HOST} !^www.acmeinfolabs.com$ [NC]
+RewriteRule ^(.*)$ https://www.acmeinfolabs.com/$1 [L,R=301]
+
+# END Canonical Redirects
+
+# BEGIN Trailing Slash Remove
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+# END Trailing Slash Remove
+
+# BEGIN Remove .php Extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R=301]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+# END Remove .php Extension
+
+# BEGIN Redirect to Root
+RewriteRule ^(.*)index\.(php|html?)$ /$1 [R=301,NC,L]
+# END Redirect to Root
+
+# BEGIN 404 Page Redirect
+ErrorDocument 404 https://www.acmeinfolabs.com/
+# END 404 Page Redirect
+
+# BEGIN Page Redirects
+Redirect /our-clients/nggallery/page/3 /
+Redirect /our-clients/nggallery/page/2 /
+Redirect /contact-us/www.acmeinfolabs.com /
+Redirect /portfolio/nggallery/page/3 /
+# END Page Redirects
+
+# BEGIN AddHandler for PHP
+AddHandler application/x-httpd-php74 .php .php5 .php4 .php3
+# END AddHandler for PHP
+
+# BEGIN Performance Optimization
+
+# Leverage Browser Caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/x-javascript "access plus 1 month"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+</IfModule>
+
+# GZIP Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/x-javascript image/svg+xml
+</IfModule>
+
+# Enable File Caching
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|woff|woff2|ttf|svg|eot|webp)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+</IfModule>
+
+# Disable ETags (Use Last-Modified Instead)
+<IfModule mod_headers.c>
+  Header unset ETag
+</IfModule>
+FileETag None
+
+# END Performance Optimization

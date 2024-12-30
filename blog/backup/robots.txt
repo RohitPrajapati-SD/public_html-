@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /administrator/
+Disallow: /blog/wp-admin/
+Disallow: /plugins/
+
+Sitemap: https://www.acmeinfolabs.com/sitemap.xml

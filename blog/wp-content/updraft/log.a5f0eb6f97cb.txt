@@ -1,0 +1,605 @@
+0000.001 (0) Opened log file at time: Sun, 01 Dec 2024 08:39:43 +0000 on https://www.acmeinfolabs.com/blog
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.7.1 PHP: 7.4.33 (cgi-fcgi, Linux gvam1145.siteground.biz 6.6.41-MCIclouder486-c9 #100486 SMP PREEMPT_DYNAMIC Mon Jul 22 12:20:50 EEST 2024 x86_64) MySQL: 8.0.36-28 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 63.7M | 66M) multisite: N openssl: OpenSSL 3.1.1 30 May 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 395611.1 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.004 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.013 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1732438160, seconds_ago=604223)
+0000.014 (0) Set semaphore last lock (fd) time to 2024-12-01 08:39:43
+0000.015 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=a5f0eb6f97cb, file_nonce=a5f0eb6f97cb begun at=1733042383 (0s ago), job type=backup
+0000.017 (0) Scheduling a resumption (1) after 300 seconds (1733042683) in case this run gets aborted
+0000.022 (0) Checking if we have a zip executable available
+0000.023 (0) Testing: /usr/bin/zip
+0000.026 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.026 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.027 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.027 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.027 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.036 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.037 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.042 (0) Working binary zip found: /usr/bin/zip
+0000.043 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.043 (0) Creation of backups of directories: beginning
+0000.044 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.614 (0) Total entities for the zip file: 1409 directories, 6724 files (0 skipped as non-modified), 114.4 MB
+0000.618 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.621 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.624 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.627 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.630 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.633 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.635 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.638 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.640 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.643 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.644 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.8 MB, 6724 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.580 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: size is now: 6.20 MB
+0001.583 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1100 files added (on-disk size: 6328.6 KB)
+0001.585 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1200 files added (on-disk size: 6328.6 KB)
+0001.587 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1300 files added (on-disk size: 6328.6 KB)
+0001.589 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1400 files added (on-disk size: 6328.6 KB)
+0001.591 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1500 files added (on-disk size: 6328.6 KB)
+0001.593 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1600 files added (on-disk size: 6328.6 KB)
+0001.595 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1700 files added (on-disk size: 6328.6 KB)
+0001.597 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1800 files added (on-disk size: 6328.6 KB)
+0001.599 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 1900 files added (on-disk size: 6328.6 KB)
+0001.601 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2000 files added (on-disk size: 6328.6 KB)
+0001.602 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.1 MB, 6724 files batched, 1001 (2002) added so far); re-opening (prior size: 6328.6 KB)
+0002.204 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: size is now: 8.40 MB
+0002.217 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2100 files added (on-disk size: 8644.3 KB)
+0002.220 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2200 files added (on-disk size: 8644.3 KB)
+0002.222 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2300 files added (on-disk size: 8644.3 KB)
+0002.225 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2400 files added (on-disk size: 8644.3 KB)
+0002.227 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2500 files added (on-disk size: 8644.3 KB)
+0002.229 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2600 files added (on-disk size: 8644.3 KB)
+0002.232 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2700 files added (on-disk size: 8644.3 KB)
+0002.235 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2800 files added (on-disk size: 8644.3 KB)
+0002.237 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 2900 files added (on-disk size: 8644.3 KB)
+0002.240 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3000 files added (on-disk size: 8644.3 KB)
+0002.240 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.5 MB, 6724 files batched, 1001 (3003) added so far); re-opening (prior size: 8644.3 KB)
+0003.184 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: size is now: 17.70 MB
+0003.188 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3100 files added (on-disk size: 18120.6 KB)
+0003.190 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3200 files added (on-disk size: 18120.6 KB)
+0003.192 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3300 files added (on-disk size: 18120.6 KB)
+0003.194 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3400 files added (on-disk size: 18120.6 KB)
+0003.197 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3500 files added (on-disk size: 18120.6 KB)
+0003.199 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3600 files added (on-disk size: 18120.6 KB)
+0003.201 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3700 files added (on-disk size: 18120.6 KB)
+0003.203 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3800 files added (on-disk size: 18120.6 KB)
+0003.206 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 3900 files added (on-disk size: 18120.6 KB)
+0003.209 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4000 files added (on-disk size: 18120.6 KB)
+0003.209 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.4 MB, 6724 files batched, 1001 (4004) added so far); re-opening (prior size: 18120.6 KB)
+0004.086 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: size is now: 21.80 MB
+0004.089 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4100 files added (on-disk size: 22336.4 KB)
+0004.092 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4200 files added (on-disk size: 22336.4 KB)
+0004.094 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4300 files added (on-disk size: 22336.4 KB)
+0004.096 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4400 files added (on-disk size: 22336.4 KB)
+0004.097 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4500 files added (on-disk size: 22336.4 KB)
+0004.099 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4600 files added (on-disk size: 22336.4 KB)
+0004.102 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4700 files added (on-disk size: 22336.4 KB)
+0004.104 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4800 files added (on-disk size: 22336.4 KB)
+0004.106 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 4900 files added (on-disk size: 22336.4 KB)
+0004.108 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5000 files added (on-disk size: 22336.4 KB)
+0004.108 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.9 MB, 6724 files batched, 1001 (5005) added so far); re-opening (prior size: 22336.4 KB)
+0005.147 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: size is now: 34.60 MB
+0005.150 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5100 files added (on-disk size: 35406.7 KB)
+0005.153 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5200 files added (on-disk size: 35406.7 KB)
+0005.155 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5300 files added (on-disk size: 35406.7 KB)
+0005.157 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5400 files added (on-disk size: 35406.7 KB)
+0005.159 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5500 files added (on-disk size: 35406.7 KB)
+0005.162 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5600 files added (on-disk size: 35406.7 KB)
+0005.164 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5700 files added (on-disk size: 35406.7 KB)
+0005.166 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5800 files added (on-disk size: 35406.7 KB)
+0005.168 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 5900 files added (on-disk size: 35406.7 KB)
+0005.170 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 6724 files batched, 949 (5954) added so far); re-opening (prior size: 35406.7 KB)
+0006.397 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 14938.7 KB/s)
+0006.398 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.7138080596924, normalised_time=1.713667446187, max_time=6.3966510295868, data points known=1, old_max_bytes=26214400, new_max_bytes=91783502)
+0006.399 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 6000 files added (on-disk size: 42164.5 KB)
+0006.402 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 6100 files added (on-disk size: 42164.5 KB)
+0006.404 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 6200 files added (on-disk size: 42164.5 KB)
+0006.407 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 6300 files added (on-disk size: 42164.5 KB)
+0006.409 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 6400 files added (on-disk size: 42164.5 KB)
+0006.412 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 6500 files added (on-disk size: 42164.5 KB)
+0006.414 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 6600 files added (on-disk size: 42164.5 KB)
+0006.416 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.tmp: 6700 files added (on-disk size: 42164.5 KB)
+0006.917 (0) Creating zip file manifest (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.list-temp.tmp)
+0006.925 (0) Successfully created zip file manifest (size: 570774)
+0007.228 (0) Created plugins zip (0) - 44396.9 KB in 7.2 s (6181.1 KB/s) (sha1: 2641596e5957c6063c33d330d162211889dd1e79, sha256: 60d53cdcb4b3711c91cb35cbf990fe945c4fa4c8145cca3e4d62bceb6e48b733)
+0007.233 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0007.234 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-536c8ae1a4f8565a610f8123decb207f)
+0007.820 (0) Google Drive: quota usage: used=68812.3 MB, total=102400 MB, available=33587.7 MB
+0007.821 (0) Google Drive: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip: Attempting to upload to Google Drive (into folder id: 1XToRe81NYQZVRNIRj7SNoGjKGq4TEiS9)
+0008.390 (0) Googledrive chunked upload: 2.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 68.9 / 80)
+0008.521 (0) Googledrive chunked upload: 6.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 68.9 / 80)
+0008.692 (0) Googledrive chunked upload: 16.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 68.9 / 80)
+0008.855 (0) Googledrive chunked upload: 34.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 68.9 / 80)
+0009.140 (0) Googledrive chunked upload: 71.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 68.9 / 80)
+0010.684 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0010.685 (0) Google Drive: OK: Archive backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip uploaded in 2.86 seconds
+0010.685 (0) Recording as successfully uploaded: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip
+0010.695 (0) Deleting local file: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip: OK
+0010.698 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.836 (0) Total entities for the zip file: 355 directories, 1118 files (0 skipped as non-modified), 31.5 MB
+0010.840 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.844 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.846 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.849 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.853 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.856 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0010.859 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0010.861 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0010.864 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0010.866 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0010.866 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.3 MB, 1118 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0011.989 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: size is now: 14.60 MB
+0011.993 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.tmp: 1100 files added (on-disk size: 14900.5 KB)
+0012.389 (0) Creating zip file manifest (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.list-temp.tmp)
+0012.392 (0) Successfully created zip file manifest (size: 91326)
+0012.540 (0) Created themes zip (0) - 16845.2 KB in 1.8 s (9153 KB/s) (sha1: ea2ed6d34568f6b941bc74a20f3d4b6335a447af, sha256: 772edf98b0c74d81595bbdc5466bd515bc6c77b63fc209c8a0577dbe248de2e3)
+0012.542 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0012.543 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-536c8ae1a4f8565a610f8123decb207f)
+0012.679 (0) Google Drive: quota usage: used=68855.7 MB, total=102400 MB, available=33544.3 MB
+0012.680 (0) Google Drive: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip: Attempting to upload to Google Drive (into folder id: 1XToRe81NYQZVRNIRj7SNoGjKGq4TEiS9)
+0013.256 (0) Googledrive chunked upload: 6.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 68.1 / 80)
+0013.395 (0) Googledrive chunked upload: 18.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 68.1 / 80)
+0013.537 (0) Googledrive chunked upload: 42.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 68.1 / 80)
+0013.883 (0) Googledrive chunked upload: 91.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 68.1 / 80)
+0015.275 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0015.276 (0) Google Drive: OK: Archive backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip uploaded in 2.6 seconds
+0015.277 (0) Recording as successfully uploaded: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip
+0015.281 (0) Deleting local file: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip: OK
+0015.283 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0015.284 (0) Looking for candidates to backup in: /home/customer/www/acmeinfolabs.com/public_html/blog/wp-content/uploads
+0015.284 (0) finding files: 2023: adding to list (1)
+0015.284 (0) finding files: .htaccess: adding to list (2)
+0015.285 (0) finding files: wpp-custom-code: adding to list (3)
+0015.285 (0) finding files: 2017: adding to list (4)
+0015.285 (0) finding files: wpforms: adding to list (5)
+0015.286 (0) finding files: 2021: adding to list (6)
+0015.286 (0) finding files: 2018: adding to list (7)
+0015.286 (0) finding files: wp-file-manager-pro: adding to list (8)
+0015.287 (0) finding files: rank-math: adding to list (9)
+0015.287 (0) finding files: 2020: adding to list (10)
+0015.287 (0) finding files: wp-cerber-E5GFTA7PXJI4DMHWC: adding to list (11)
+0015.288 (0) finding files: sass: adding to list (12)
+0015.288 (0) finding files: 2022: adding to list (13)
+0015.288 (0) finding files: wp-migrate-db: adding to list (14)
+0015.289 (0) finding files: 2019: adding to list (15)
+0015.289 (0) finding files: 2024: adding to list (16)
+0015.289 (0) finding files: js_composer: adding to list (17)
+0015.290 (0) finding files: content-views: adding to list (18)
+0015.290 (0) finding files: so-css: adding to list (19)
+0015.290 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0015.405 (0) Total entities for the zip file: 90 directories, 3272 files (0 skipped as non-modified), 136.8 MB
+0015.408 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.411 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.413 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.416 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.418 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.420 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0015.422 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0015.424 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0015.426 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0015.428 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0015.428 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (53.2 MB, 3272 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0016.380 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: size is now: 53.40 MB
+0016.384 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1100 files added (on-disk size: 54678.5 KB)
+0016.386 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1200 files added (on-disk size: 54678.5 KB)
+0016.388 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1300 files added (on-disk size: 54678.5 KB)
+0016.390 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1400 files added (on-disk size: 54678.5 KB)
+0016.392 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1500 files added (on-disk size: 54678.5 KB)
+0016.394 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1600 files added (on-disk size: 54678.5 KB)
+0016.396 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1700 files added (on-disk size: 54678.5 KB)
+0016.398 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1800 files added (on-disk size: 54678.5 KB)
+0016.400 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 1900 files added (on-disk size: 54678.5 KB)
+0016.402 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2000 files added (on-disk size: 54678.5 KB)
+0016.402 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (42 MB, 3272 files batched, 1001 (2002) added so far); re-opening (prior size: 54678.5 KB)
+0017.409 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: size is now: 95.50 MB
+0017.414 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2100 files added (on-disk size: 97815.7 KB)
+0017.417 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2200 files added (on-disk size: 97815.7 KB)
+0017.420 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2300 files added (on-disk size: 97815.7 KB)
+0017.422 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2400 files added (on-disk size: 97815.7 KB)
+0017.424 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2500 files added (on-disk size: 97815.7 KB)
+0017.426 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2600 files added (on-disk size: 97815.7 KB)
+0017.431 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2700 files added (on-disk size: 97815.7 KB)
+0017.434 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2800 files added (on-disk size: 97815.7 KB)
+0017.436 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 2900 files added (on-disk size: 97815.7 KB)
+0017.438 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 3000 files added (on-disk size: 97815.7 KB)
+0017.439 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (35.6 MB, 3272 files batched, 1001 (3003) added so far); re-opening (prior size: 97815.7 KB)
+0018.597 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: size is now: 129.60 MB
+0018.602 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 3100 files added (on-disk size: 132720.1 KB)
+0018.604 (0) Zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.tmp: 3200 files added (on-disk size: 132720.1 KB)
+0019.070 (0) Creating zip file manifest (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.list-temp.tmp)
+0019.074 (0) Successfully created zip file manifest (size: 186862)
+0020.097 (0) Created uploads zip (0) - 138898.2 KB in 4.8 s (28906.2 KB/s) (sha1: 9b61c1ab9119d92e1190ac92a43cb98ede4a9adc, sha256: 2fdf43137c2e6a9ad54b27db60ee54a361fcd2f2adbad94eb96e14fa937a7a42)
+0020.100 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0020.101 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-536c8ae1a4f8565a610f8123decb207f)
+0020.256 (0) Google Drive: quota usage: used=68872.1 MB, total=102400 MB, available=33527.9 MB
+0020.257 (0) Google Drive: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip: Attempting to upload to Google Drive (into folder id: 1XToRe81NYQZVRNIRj7SNoGjKGq4TEiS9)
+0020.827 (0) Googledrive chunked upload: 0.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 68.3 / 80)
+0020.970 (0) Googledrive chunked upload: 2.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 68.3 / 80)
+0021.111 (0) Googledrive chunked upload: 5.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 68.3 / 80)
+0021.312 (0) Googledrive chunked upload: 11.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 68.3 / 80)
+0021.570 (0) Googledrive chunked upload: 22.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 68.3 / 80)
+0022.037 (0) Googledrive chunked upload: 46.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 68.3 / 80)
+0022.915 (0) Googledrive chunked upload: 93.6 % uploaded (133169152)
+0024.458 (0) Googledrive chunked upload: 100 % uploaded (133169152)
+0024.459 (0) Google Drive: OK: Archive backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip uploaded in 4.2 seconds
+0024.460 (0) Recording as successfully uploaded: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip
+0024.487 (0) Deleting local file: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip: OK
+0024.489 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0024.491 (0) Total entities for the zip file: 1 directories, 0 files (0 skipped as non-modified), 0 MB
+0024.501 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-mu-plugins.zip.tmp: size is now: 0.00 MB
+0024.502 (0) Did not find any files in the zip: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-mu-plugins.zip.tmp
+0024.504 (0) Created mu-plugins zip (0) - 0.2 KB in 0 s (13.1 KB/s) (sha1: 375f7d9b0ee2f36988c67f94cffbd949e31a253a, sha256: f3b1be4b9a909a525a356623d295da2b9640d5f44b3e91f9d6c11ab9840b5698)
+0024.505 (0) Beginning backup of other directories found in the content directory (index: 0)
+0024.505 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0024.505 (0) Looking for candidates to backup in: /home/customer/www/acmeinfolabs.com/public_html/blog/wp-content
+0024.506 (0) finding files: .htaccess: adding to list (1)
+0024.506 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0024.506 (0) finding files: mu-plugins-old: adding to list (2)
+0024.506 (0) finding files: uploads: skipping: this is the uploads directory
+0024.507 (0) finding files: index.php: adding to list (3)
+0024.507 (0) finding files: upgrade-temp-backup: adding to list (4)
+0024.507 (0) finding files: plugins: skipping: this is the plugins directory
+0024.507 (0) finding files: themes: skipping: this is the themes directory
+0024.508 (0) finding files: themes-old: adding to list (5)
+0024.508 (0) finding files: index.php-old: adding to list (6)
+0024.508 (0) finding files: updraft: skipping: this is the updraft directory
+0024.508 (0) finding files: uploads-old: adding to list (7)
+0024.508 (0) finding files: .htaccess-old: adding to list (8)
+0024.508 (0) finding files: cache: skipping: excluded by options
+0024.509 (0) finding files: upgrade: skipping: excluded by options
+0024.512 (0) Total entities for the zip file: 5 directories, 5 files (0 skipped as non-modified), 0 MB
+0024.524 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-others.zip.tmp: size is now: 0.00 MB
+0024.526 (0) Creating zip file manifest (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-others.zip.list-temp.tmp)
+0024.526 (0) Successfully created zip file manifest (size: 165)
+0024.529 (0) Created others zip (0) - 2.4 KB in 0 s (129.5 KB/s) (sha1: 33fcdc0686d3b55b9ba84bf3b89459050dc3e6f8, sha256: 75c683d2c005835ad4d196a2656b53d5a39d0028b5f28ebe6ad35a2e9a08193f)
+0024.530 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0024.531 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-536c8ae1a4f8565a610f8123decb207f)
+0024.678 (0) Google Drive: quota usage: used=69007.8 MB, total=102400 MB, available=33392.2 MB
+0024.679 (0) Google Drive: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-others.zip: Attempting to upload to Google Drive (into folder id: 1XToRe81NYQZVRNIRj7SNoGjKGq4TEiS9)
+0026.105 (0) Googledrive chunked upload: 100 % uploaded
+0026.106 (0) Google Drive: OK: Archive backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-others.zip uploaded in 1.43 seconds
+0026.106 (0) Recording as successfully uploaded: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-others.zip
+0026.107 (0) Deleting local file: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-others.zip: OK
+0026.111 (0) Saving backup status to database (elements: 10)
+0026.114 (0) Beginning creation of database dump (WordPress DB)
+0026.114 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0026.116 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0026.146 (0) Output: /*!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 (truncated - 1572 bytes total)
+0026.147 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0026.155 (0) Table wp_options: Total expected rows (via COUNT): 607
+0026.172 (0) Table wp_options: Rows added in this batch (next record: 724733): 603 (uncompressed bytes in this segment=489496) in 0.02 seconds
+0026.175 (0) Table wp_options: finishing file(s) (2, 90.4 KB)
+0026.179 (0) Table wp_users: Total expected rows (via COUNT): 2
+0026.180 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.181 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1486) in 0.00 seconds
+0026.182 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0026.186 (0) Table wp_usermeta: Total expected rows (via COUNT): 107
+0026.186 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.188 (0) Table wp_usermeta: Rows added in this batch (next record: 399): 107 (uncompressed bytes in this segment=8949) in 0.00 seconds
+0026.190 (0) Table wp_usermeta: finishing file(s) (2, 3.6 KB)
+0026.230 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 3964
+0026.282 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 69873): 3641 (uncompressed bytes in this segment=1453019) in 0.09 seconds
+0026.284 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 156.9 KB)
+0026.288 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 1
+0026.289 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.290 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: 35371): 1 (uncompressed bytes in this segment=709) in 0.00 seconds
+0026.291 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0026.296 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0026.297 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.298 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=723) in 0.00 seconds
+0026.300 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0026.301 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 8982
+0026.364 (0) Table wp_actionscheduler_logs: binary mysqldump finished (writes: 34, bytes 910237, return code 0) in 0.06 seconds
+0026.366 (0) Table wp_actionscheduler_logs: finishing file(s) (1, 94.4 KB)
+0026.372 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0026.373 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=665) in 0.01 seconds
+0026.376 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0026.382 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0026.383 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1649) in 0.01 seconds
+0026.384 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0026.390 (0) Table wp_links: Total expected rows (via COUNT): 0
+0026.391 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1258) in 0.00 seconds
+0026.392 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0026.394 (0) Table wp_postmeta: Total expected rows (approximate): 11639
+0026.451 (0) Table wp_postmeta: binary mysqldump finished (writes: 34, bytes 1636816, return code 0) in 0.06 seconds
+0026.452 (0) Table wp_postmeta: finishing file(s) (1, 183.7 KB)
+0026.581 (0) Table wp_posts: Total expected rows (approximate): 2040
+0026.819 (0) Table wp_posts: Rows added in this batch (next record: 7978): 1987 (uncompressed bytes in this segment=8167802) in 0.36 seconds
+0026.823 (0) Table wp_posts: finishing file(s) (2, 1161.6 KB)
+0026.827 (0) Table wp_term_relationships: Total expected rows (approximate): 646
+0026.830 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 731 (uncompressed bytes in this segment=12234) in 0.00 seconds
+0026.832 (0) Table wp_term_relationships: finishing file(s) (2, 2.1 KB)
+0026.837 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 88
+0026.838 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.839 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 90): 88 (uncompressed bytes in this segment=3774) in 0.01 seconds
+0026.842 (0) Table wp_term_taxonomy: finishing file(s) (2, 1 KB)
+0026.847 (0) Table wp_termmeta: Total expected rows (via COUNT): 65
+0026.847 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.848 (0) Table wp_termmeta: Rows added in this batch (next record: 78): 65 (uncompressed bytes in this segment=5026) in 0.00 seconds
+0026.851 (0) Table wp_termmeta: finishing file(s) (2, 1.2 KB)
+0026.855 (0) Table wp_terms: Total expected rows (via COUNT): 88
+0026.856 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.857 (0) Table wp_terms: Rows added in this batch (next record: 90): 88 (uncompressed bytes in this segment=5801) in 0.00 seconds
+0026.859 (0) Table wp_terms: finishing file(s) (2, 1.8 KB)
+0026.859 (0) Skipping table (lacks our prefix (wp_)): cerber_acl
+0026.860 (0) Skipping table (lacks our prefix (wp_)): cerber_blocks
+0026.860 (0) Skipping table (lacks our prefix (wp_)): cerber_countries
+0026.860 (0) Skipping table (lacks our prefix (wp_)): cerber_lab
+0026.861 (0) Skipping table (lacks our prefix (wp_)): cerber_lab_ip
+0026.861 (0) Skipping table (lacks our prefix (wp_)): cerber_lab_net
+0026.861 (0) Skipping table (lacks our prefix (wp_)): cerber_log
+0026.862 (0) Skipping table (lacks our prefix (wp_)): cerber_qmem
+0026.862 (0) Skipping table (lacks our prefix (wp_)): cerber_traffic
+0026.867 (0) Table wp_cerber_files: Total expected rows (approximate): 0
+0026.870 (0) Table wp_cerber_files: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1326) in 0.01 seconds
+0026.872 (0) Table wp_cerber_files: finishing file(s) (2, 0.4 KB)
+0026.876 (0) Table wp_cerber_sets: Total expected rows (approximate): 12
+0026.879 (0) Table wp_cerber_sets: Rows added in this batch (next record: 1000): 12 (uncompressed bytes in this segment=1415) in 0.00 seconds
+0026.880 (0) Table wp_cerber_sets: finishing file(s) (2, 0.8 KB)
+0026.885 (0) Table wp_cerber_uss: Total expected rows (approximate): 4
+0026.888 (0) Table wp_cerber_uss: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1304) in 0.00 seconds
+0026.889 (0) Table wp_cerber_uss: finishing file(s) (2, 0.7 KB)
+0026.895 (0) Table wp_litespeed_img_optm: Total expected rows (via COUNT): 9
+0026.896 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.897 (0) Table wp_litespeed_img_optm: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1696) in 0.01 seconds
+0026.899 (0) Table wp_litespeed_img_optm: finishing file(s) (2, 0.6 KB)
+0026.906 (0) Table wp_litespeed_img_optming: Total expected rows (via COUNT): 404
+0026.907 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.909 (0) Table wp_litespeed_img_optming: Rows added in this batch (next record: 404): 404 (uncompressed bytes in this segment=20005) in 0.01 seconds
+0026.911 (0) Table wp_litespeed_img_optming: finishing file(s) (2, 2.8 KB)
+0026.915 (0) Table wp_pvc_daily: Total expected rows (via COUNT): 5
+0026.916 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.917 (0) Table wp_pvc_daily: Rows added in this batch (next record: 21898): 5 (uncompressed bytes in this segment=778) in 0.00 seconds
+0026.918 (0) Table wp_pvc_daily: finishing file(s) (2, 0.4 KB)
+0026.922 (0) Table wp_pvc_total: Total expected rows (via COUNT): 1000
+0026.926 (0) Table wp_pvc_total: Rows added in this batch (next record: 1000): 1000 (uncompressed bytes in this segment=19554) in 0.01 seconds
+0026.928 (0) Table wp_pvc_total: finishing file(s) (2, 5.1 KB)
+0026.931 (0) Table wp_rank_math_404_logs: Total expected rows (via COUNT): 7
+0026.932 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.933 (0) Table wp_rank_math_404_logs: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1887) in 0.00 seconds
+0026.934 (0) Table wp_rank_math_404_logs: finishing file(s) (2, 0.8 KB)
+0026.938 (0) Table wp_rank_math_analytics_ga: Total expected rows (approximate): 1221
+0026.940 (0) Table wp_rank_math_analytics_ga: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.00 seconds
+0026.942 (0) Table wp_rank_math_analytics_ga: finishing file(s) (2, 0.4 KB)
+0026.943 (0) Table wp_rank_math_analytics_gsc: Total expected rows (approximate): 19513
+0027.074 (0) Table wp_rank_math_analytics_gsc: binary mysqldump finished (writes: 42, bytes 3942085, return code 0) in 0.13 seconds
+0027.075 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (1, 375.8 KB)
+0027.098 (0) Table wp_rank_math_analytics_inspections: Total expected rows (via COUNT): 370
+0027.099 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.110 (0) Table wp_rank_math_analytics_inspections: Rows added in this batch (next record: 387): 370 (uncompressed bytes in this segment=381606) in 0.03 seconds
+0027.113 (0) Table wp_rank_math_analytics_inspections: finishing file(s) (2, 27.2 KB)
+0027.119 (0) Table wp_rank_math_analytics_keyword_manager: Total expected rows (via COUNT): 11
+0027.120 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.121 (0) Table wp_rank_math_analytics_keyword_manager: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1661) in 0.01 seconds
+0027.123 (0) Table wp_rank_math_analytics_keyword_manager: finishing file(s) (2, 0.7 KB)
+0027.133 (0) Table wp_rank_math_analytics_objects: Total expected rows (via COUNT): 370
+0027.133 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.141 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 390): 370 (uncompressed bytes in this segment=98858) in 0.02 seconds
+0027.143 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 18.6 KB)
+0027.152 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 699
+0027.157 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 3892): 699 (uncompressed bytes in this segment=63541) in 0.01 seconds
+0027.159 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 8.3 KB)
+0027.165 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 365
+0027.165 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.167 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 7932): 365 (uncompressed bytes in this segment=7243) in 0.01 seconds
+0027.169 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 1.7 KB)
+0027.174 (0) Table wp_rank_math_redirections: Total expected rows (via COUNT): 0
+0027.175 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=984) in 0.00 seconds
+0027.177 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0027.180 (0) Table wp_rank_math_redirections_cache: Total expected rows (via COUNT): 0
+0027.181 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=855) in 0.00 seconds
+0027.182 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0027.187 (0) Table wp_rank_math_sc_analytics: Total expected rows (via COUNT): 0
+0027.187 (0) Table wp_rank_math_sc_analytics: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=782) in 0.00 seconds
+0027.189 (0) Table wp_rank_math_sc_analytics: finishing file(s) (2, 0.4 KB)
+0027.193 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0027.193 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=510) in 0.00 seconds
+0027.195 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0027.201 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 13
+0027.201 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.203 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=6862) in 0.01 seconds
+0027.205 (0) Table wp_wpforms_logs: finishing file(s) (2, 1.8 KB)
+0027.212 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0027.213 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.01 seconds
+0027.214 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0027.220 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0027.221 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.01 seconds
+0027.223 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0027.229 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0027.229 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.230 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 161): 5 (uncompressed bytes in this segment=1040) in 0.01 seconds
+0027.232 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0027.250 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 375
+0027.250 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.263 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 826): 375 (uncompressed bytes in this segment=317640) in 0.03 seconds
+0027.266 (0) Table wp_yoast_indexable: finishing file(s) (2, 45.4 KB)
+0027.270 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 375
+0027.273 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 375 (uncompressed bytes in this segment=7372) in 0.01 seconds
+0027.275 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 1.6 KB)
+0027.280 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0027.281 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.282 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1236) in 0.00 seconds
+0027.283 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0027.289 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 165
+0027.289 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.291 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 170): 165 (uncompressed bytes in this segment=13778) in 0.01 seconds
+0027.293 (0) Table wp_yoast_primary_term: finishing file(s) (2, 3.2 KB)
+0027.300 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 482
+0027.301 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.305 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 5353): 482 (uncompressed bytes in this segment=74189) in 0.01 seconds
+0027.307 (0) Table wp_yoast_seo_links: finishing file(s) (2, 10.7 KB)
+0027.308 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_options.table.tmpr724734.gz (1/53/fopen): adding to final database dump
+0027.309 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_options.table.gz (2/53/fopen): adding to final database dump
+0027.309 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_users.table.tmpr3.gz (3/53/fopen): adding to final database dump
+0027.309 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_users.table.gz (4/53/fopen): adding to final database dump
+0027.309 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_usermeta.table.tmpr400.gz (5/53/fopen): adding to final database dump
+0027.310 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_usermeta.table.gz (6/53/fopen): adding to final database dump
+0027.310 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_actionscheduler_actions.table.tmpr69874.gz (7/53/fopen): adding to final database dump
+0027.311 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_actionscheduler_actions.table.gz (8/53/fopen): adding to final database dump
+0027.312 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_actionscheduler_claims.table.tmpr35372.gz (9/53/fopen): adding to final database dump
+0027.312 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_actionscheduler_claims.table.gz (10/53/fopen): adding to final database dump
+0027.312 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/53/fopen): adding to final database dump
+0027.312 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_actionscheduler_groups.table.gz (12/53/fopen): adding to final database dump
+0027.313 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_actionscheduler_logs.table.gz (13/53/fopen): adding to final database dump
+0027.313 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_commentmeta.table.tmpr0.gz (14/53/fopen): adding to final database dump
+0027.314 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_commentmeta.table.gz (15/53/fopen): adding to final database dump
+0027.314 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_comments.table.tmpr0.gz (16/53/fopen): adding to final database dump
+0027.314 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_comments.table.gz (17/53/fopen): adding to final database dump
+0027.315 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_links.table.tmpr0.gz (18/53/fopen): adding to final database dump
+0027.315 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_links.table.gz (19/53/fopen): adding to final database dump
+0027.315 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_postmeta.table.gz (20/53/fopen): adding to final database dump
+0027.316 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_posts.table.tmpr7979.gz (21/53/fopen): adding to final database dump
+0027.322 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_posts.table.gz (22/53/fopen): adding to final database dump
+0027.322 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_term_relationships.table.tmpr100001.gz (23/53/fopen): adding to final database dump
+0027.322 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_term_relationships.table.gz (24/53/fopen): adding to final database dump
+0027.322 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_term_taxonomy.table.tmpr91.gz (25/53/fopen): adding to final database dump
+0027.323 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_term_taxonomy.table.gz (26/53/fopen): adding to final database dump
+0027.323 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_termmeta.table.tmpr79.gz (27/53/fopen): adding to final database dump
+0027.323 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_termmeta.table.gz (28/53/fopen): adding to final database dump
+0027.323 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_terms.table.tmpr91.gz (29/53/fopen): adding to final database dump
+0027.324 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_terms.table.gz (30/53/fopen): adding to final database dump
+0027.324 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_cerber_files.table.tmpr1.gz (31/53/fopen): adding to final database dump
+0027.324 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_cerber_files.table.gz (32/53/fopen): adding to final database dump
+0027.324 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_cerber_sets.table.tmpr1001.gz (33/53/fopen): adding to final database dump
+0027.325 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_cerber_sets.table.gz (34/53/fopen): adding to final database dump
+0027.325 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_cerber_uss.table.tmpr1001.gz (35/53/fopen): adding to final database dump
+0027.325 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_cerber_uss.table.gz (36/53/fopen): adding to final database dump
+0027.325 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_litespeed_img_optm.table.tmpr10.gz (37/53/fopen): adding to final database dump
+0027.325 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_litespeed_img_optm.table.gz (38/53/fopen): adding to final database dump
+0027.326 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_litespeed_img_optming.table.tmpr405.gz (39/53/fopen): adding to final database dump
+0027.326 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_litespeed_img_optming.table.gz (40/53/fopen): adding to final database dump
+0027.326 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_pvc_daily.table.tmpr21899.gz (41/53/fopen): adding to final database dump
+0027.326 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_pvc_daily.table.gz (42/53/fopen): adding to final database dump
+0027.326 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_pvc_total.table.tmpr1001.gz (43/53/fopen): adding to final database dump
+0027.327 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_pvc_total.table.gz (44/53/fopen): adding to final database dump
+0027.327 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_404_logs.table.tmpr8.gz (45/53/fopen): adding to final database dump
+0027.327 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_404_logs.table.gz (46/53/fopen): adding to final database dump
+0027.327 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_ga.table.tmpr0.gz (47/53/fopen): adding to final database dump
+0027.328 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_ga.table.gz (48/53/fopen): adding to final database dump
+0027.328 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_gsc.table.gz (49/53/fopen): adding to final database dump
+0027.330 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_inspections.table.tmpr388.gz (50/53/fopen): adding to final database dump
+0027.331 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_inspections.table.gz (51/53/fopen): adding to final database dump
+0027.331 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_keyword_manager.table.tmpr12.gz (52/53/fopen): adding to final database dump
+0027.331 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_keyword_manager.table.gz (53/53/fopen): adding to final database dump
+0027.332 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_objects.table.tmpr391.gz (54/53/fopen): adding to final database dump
+0027.332 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_analytics_objects.table.gz (55/53/fopen): adding to final database dump
+0027.332 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_internal_links.table.tmpr3893.gz (56/53/fopen): adding to final database dump
+0027.332 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_internal_links.table.gz (57/53/fopen): adding to final database dump
+0027.333 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_internal_meta.table.tmpr7933.gz (58/53/fopen): adding to final database dump
+0027.333 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_internal_meta.table.gz (59/53/fopen): adding to final database dump
+0027.333 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_redirections.table.tmpr0.gz (60/53/fopen): adding to final database dump
+0027.333 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_redirections.table.gz (61/53/fopen): adding to final database dump
+0027.334 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_redirections_cache.table.tmpr0.gz (62/53/fopen): adding to final database dump
+0027.334 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_redirections_cache.table.gz (63/53/fopen): adding to final database dump
+0027.334 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_sc_analytics.table.tmpr0.gz (64/53/fopen): adding to final database dump
+0027.334 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_rank_math_sc_analytics.table.gz (65/53/fopen): adding to final database dump
+0027.334 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpfm_backup.table.tmpr0.gz (66/53/fopen): adding to final database dump
+0027.335 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpfm_backup.table.gz (67/53/fopen): adding to final database dump
+0027.335 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpforms_logs.table.tmpr14.gz (68/53/fopen): adding to final database dump
+0027.336 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpforms_logs.table.gz (69/53/fopen): adding to final database dump
+0027.336 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (70/53/fopen): adding to final database dump
+0027.337 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpforms_payment_meta.table.gz (71/53/fopen): adding to final database dump
+0027.337 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpforms_payments.table.tmpr0.gz (72/53/fopen): adding to final database dump
+0027.338 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpforms_payments.table.gz (73/53/fopen): adding to final database dump
+0027.338 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpforms_tasks_meta.table.tmpr162.gz (74/53/fopen): adding to final database dump
+0027.338 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_wpforms_tasks_meta.table.gz (75/53/fopen): adding to final database dump
+0027.339 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_indexable.table.tmpr827.gz (76/53/fopen): adding to final database dump
+0027.339 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_indexable.table.gz (77/53/fopen): adding to final database dump
+0027.340 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (78/53/fopen): adding to final database dump
+0027.340 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_indexable_hierarchy.table.gz (79/53/fopen): adding to final database dump
+0027.340 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_migrations.table.tmpr24.gz (80/53/fopen): adding to final database dump
+0027.341 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_migrations.table.gz (81/53/fopen): adding to final database dump
+0027.341 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_primary_term.table.tmpr171.gz (82/53/fopen): adding to final database dump
+0027.341 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_primary_term.table.gz (83/53/fopen): adding to final database dump
+0027.341 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_seo_links.table.tmpr5354.gz (84/53/fopen): adding to final database dump
+0027.342 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db-table-wp_yoast_seo_links.table.gz (85/53/fopen): adding to final database dump
+0027.345 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db.gz: finished writing out complete database file (2210.1 KB)
+0027.364 (0) Total database tables backed up: 44 (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db.gz, size: 2263254, sha1: eac89c599ccba732cfd1d1f02c0fbded1b9f4f8a, sha256: d761c5e8cceaf690524667209457d82bfbcb04ae824ed8d63fc08859e745034a)
+0027.369 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip: plugins: This file has already been successfully uploaded
+0027.370 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip: themes: This file has already been successfully uploaded
+0027.370 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip: uploads: This file has already been successfully uploaded
+0027.370 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+0027.370 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-others.zip: others: This file has already been successfully uploaded
+0027.371 (0) backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db.gz: db: This file has not yet been successfully uploaded: will queue
+0027.371 (0) Saving backup history. Total backup size: 197.6 MB
+0027.374 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0027.380 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0027.380 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-536c8ae1a4f8565a610f8123decb207f)
+0027.517 (0) Google Drive: quota usage: used=69007.8 MB, total=102400 MB, available=33392.2 MB
+0027.518 (0) Google Drive: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1XToRe81NYQZVRNIRj7SNoGjKGq4TEiS9)
+0028.971 (0) Googledrive chunked upload: 100 % uploaded
+0028.972 (0) Google Drive: OK: Archive backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-mu-plugins.zip uploaded in 1.45 seconds
+0028.973 (0) Recording as successfully uploaded: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-mu-plugins.zip
+0028.973 (0) Deleting local file: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-mu-plugins.zip: OK
+0029.106 (0) Google Drive: quota usage: used=69007.8 MB, total=102400 MB, available=33392.2 MB
+0029.107 (0) Google Drive: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db.gz: Attempting to upload to Google Drive (into folder id: 1XToRe81NYQZVRNIRj7SNoGjKGq4TEiS9)
+0029.536 (0) Googledrive chunked upload: 46.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 68 / 98)
+0030.814 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0030.816 (0) Google Drive: OK: Archive backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db.gz uploaded in 1.71 seconds
+0030.816 (0) Recording as successfully uploaded: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db.gz
+0030.818 (0) Deleting local file: backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-db.gz: OK
+0030.820 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0030.822 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1676152740, 1675548720, 1674945960, 1674337800, 1668589680, 1667792700, 1667188620, 1666083240, 1650269460
+0030.822 (0) Number of backup sets in history: 15; groups (db): 1
+0030.823 (0) Examining (for databases) backup set with group_id=0, nonce=a5f0eb6f97cb, datestamp=1733042383 (Dec 01 2024 08:39:43)
+0030.823 (0) This backup set is the backup set just made, so will not be deleted.
+0030.823 (0) Examining (for databases) backup set with group_id=0, nonce=5dedfcd3efde, datestamp=1732438160 (Nov 24 2024 08:49:20)
+0030.823 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.823 (0) Examining (for databases) backup set with group_id=0, nonce=b84043e5dc74, datestamp=1731832944 (Nov 17 2024 08:42:24)
+0030.823 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.823 (0) Examining (for databases) backup set with group_id=0, nonce=bc282aca0f63, datestamp=1731228284 (Nov 10 2024 08:44:44)
+0030.823 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.824 (0) Examining (for databases) backup set with group_id=0, nonce=abfcb8b65b95, datestamp=1730623274 (Nov 03 2024 08:41:14)
+0030.824 (0) 1730623274: db: this set includes a database (backup_2024-11-03-1411_Digital_Marketing_Blogs_amp_To_abfcb8b65b95-db.gz); db count is now 4
+0030.824 (0) 1730623274: db: over retain limit (4); will delete this database
+0032.955 (0) Google Drive: backup_2024-11-03-1411_Digital_Marketing_Blogs_amp_To_abfcb8b65b95-db.gz: Deletion successful
+0032.958 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0032.958 (0) Examining (for databases) backup set with group_id=0, nonce=7a20ec03ebcc, datestamp=1649777753 (Apr 12 2022 15:35:53)
+0032.958 (0) This backup set (1649777753) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0032.958 (0) Number of backup sets in history: 15; groups (files): 1
+0032.958 (0) Examining (for files) backup set with nonce=a5f0eb6f97cb, datestamp=1733042383 (Dec 01 2024 08:39:43)
+0032.958 (0) This backup set is the backup set just made, so will not be deleted.
+0032.959 (0) This backup set is the backup set just made, so will not be deleted.
+0032.959 (0) This backup set is the backup set just made, so will not be deleted.
+0032.959 (0) This backup set is the backup set just made, so will not be deleted.
+0032.959 (0) This backup set is the backup set just made, so will not be deleted.
+0032.959 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.960 (0) Examining (for files) backup set with nonce=5dedfcd3efde, datestamp=1732438160 (Nov 24 2024 08:49:20)
+0032.960 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.960 (0) Examining (for files) backup set with nonce=b84043e5dc74, datestamp=1731832944 (Nov 17 2024 08:42:24)
+0032.960 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.960 (0) Examining (for files) backup set with nonce=bc282aca0f63, datestamp=1731228284 (Nov 10 2024 08:44:44)
+0032.960 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.960 (0) Examining (for files) backup set with nonce=abfcb8b65b95, datestamp=1730623274 (Nov 03 2024 08:41:14)
+0032.960 (0) plugins: over retain limit (4); will delete this file entity
+0032.960 (0) themes: over retain limit (4); will delete this file entity
+0032.960 (0) uploads: over retain limit (4); will delete this file entity
+0032.960 (0) mu-plugins: over retain limit (4); will delete this file entity
+0032.960 (0) others: over retain limit (4); will delete this file entity
+0033.985 (0) Google Drive: backup_2024-11-03-1411_Digital_Marketing_Blogs_amp_To_abfcb8b65b95-mu-plugins.zip: Deletion successful
+0034.806 (0) Google Drive: backup_2024-11-03-1411_Digital_Marketing_Blogs_amp_To_abfcb8b65b95-others.zip: Deletion successful
+0035.861 (0) Google Drive: backup_2024-11-03-1411_Digital_Marketing_Blogs_amp_To_abfcb8b65b95-uploads.zip: Deletion successful
+0037.856 (0) Google Drive: backup_2024-11-03-1411_Digital_Marketing_Blogs_amp_To_abfcb8b65b95-themes.zip: Deletion successful
+0039.398 (0) Google Drive: backup_2024-11-03-1411_Digital_Marketing_Blogs_amp_To_abfcb8b65b95-plugins.zip: Deletion successful
+0039.402 (0) This backup set is now empty; will remove from history
+0039.402 (0) Deleting log file (log.abfcb8b65b95.txt)
+0039.403 (0) Examining (for files) backup set with nonce=7a20ec03ebcc, datestamp=1649777753 (Apr 12 2022 15:35:53)
+0039.403 (0) This backup set (1649777753) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0039.403 (0) This backup set (1649777753) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0039.403 (0) This backup set (1649777753) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0039.403 (0) This backup set (1649777753) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0039.403 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.404 (0) Retain: saving new backup history (sets now: 14) and finishing retain operation
+0039.407 (0) Resume backup (a5f0eb6f97cb, 0): finish run
+0039.408 (0) Decremented the semaphore (fd) by 1
+0039.409 (0) Semaphore (fd) unlocked
+0039.409 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0039.411 (0) Deleting zip manifest (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-plugins.zip.list.tmp)
+0039.411 (0) Deleting zip manifest (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-themes.zip.list.tmp)
+0039.412 (0) Deleting zip manifest (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-uploads.zip.list.tmp)
+0039.412 (0) Deleting zip manifest (backup_2024-12-01-1409_Digital_Marketing_Blogs_amp_To_a5f0eb6f97cb-others.zip.list.tmp)
+0039.412 (0) No email will/can be sent - the user has not configured an email address.
+0039.412 (0) The backup succeeded and is now complete
